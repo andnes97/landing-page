@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    height: 75px;
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-evenly;
+}
+
+.footer {
+    color: #e5e7eb;
+    justify-content: center;
+}
+
+.first-panel{
+    background: #1f2937;
+} 
+
+.second-panel {
+
+}
+
+.third-panel {
+    background: #e5e7eb;
+}
+
+.fourth-panel {
+    background: #3882f6;
+}
