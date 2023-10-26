@@ -15,7 +15,8 @@ body {
 }
 
 .header {
-    justify-content: space-evenly;
+    padding-inline: 200px;
+    justify-content: space-between;
 }
 
 .header h2 {
@@ -24,11 +25,15 @@ body {
 }
 
 .header .links {
-    color: #e5e7eb;
-    font-size: 18px;
     list-style-type: none;
     display: flex;
     gap: 25px;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .footer {
@@ -38,11 +43,11 @@ body {
 
 .first-panel{
     background: #1f2937;
-    padding: 50px;
+    padding-inline: 200px;
+    padding-block: 50px;
     flex: 1;
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
 } 
 
 .first-panel .content {
@@ -62,6 +67,19 @@ body {
     font-size: 18px;
 }
 
+.sign-up {
+    width: 100px;
+    padding: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+}
+
+.first-panel .sign-up {
+    border: 0;
+}
+
 .first-panel img {
     width: 400px;
     height: auto;
@@ -70,7 +88,8 @@ body {
 .second-panel {
     text-align: center;
     color: #1f2937;
-    padding: 50px;
+    padding-inline: 200px;
+    padding-block: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,12 +103,12 @@ body {
 .second-panel .content {
     display: flex;
     justify-content: center;
-    gap: 1px;
+    gap: 5px;
 }
 
 .second-panel img {
-    width: 275px;
-    height: 210px;
+    width: 250px;
+    height: 200px;
 }
 
 .second-panel .card {
@@ -99,7 +118,8 @@ body {
 
 .third-panel {
     background: #e5e7eb;
-    padding: 50px;
+    padding-inline: 200px;
+    padding-block: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -117,6 +137,7 @@ body {
 .fourth-panel {
     background: #3882f6;
     color: white;
-    margin: 50px;
-    padding: 50px;
+    margin-inline: 200px;
+    margin-block: 70px;
+    padding: 25px;
 }
