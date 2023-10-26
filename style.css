@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    margin: 0;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -38,11 +39,14 @@ body {
 .first-panel{
     background: #1f2937;
     padding: 50px;
+    flex: 1;
     display: flex;
     justify-content: center;
+    gap: 50px;
 } 
 
 .first-panel .content {
+    width: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -56,6 +60,11 @@ body {
 .first-panel .text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.first-panel img {
+    width: 400px;
+    height: auto;
 }
 
 .second-panel {
@@ -74,7 +83,18 @@ body {
 
 .second-panel .content {
     display: flex;
-    gap: 50px;
+    justify-content: center;
+    gap: 1px;
+}
+
+.second-panel img {
+    width: 275px;
+    height: 210px;
+}
+
+.second-panel .card {
+    width: 300px;
+    text-wrap: wrap;
 }
 
 .third-panel {
